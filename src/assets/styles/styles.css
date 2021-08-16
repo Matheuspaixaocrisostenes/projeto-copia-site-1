@@ -1,6 +1,9 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 p,a{
@@ -11,76 +14,128 @@ h1,h2,h3{
     font-family: 'DM Serif Display';
 }
 
-nav{
-    background-color: #1B1F29;
-    color: white;
-    height: 120px;
-    margin-top: -20px;
-    padding: 15px;
+.logo a{
+    color: #ffff;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0px 100px;
+    font-family: 'DM Serif Display';
 }
 
-nav a {
-    color: white;
+nav {
+	background: #1B1F29;
+	height: 100px;
+	width: 100%;
+    padding: 19px;
 }
 
-.menu{
-    list-style: none;
+nav .menu{
+    float: left;
+    margin-right: 20px;
+}
+
+nav .menu li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+}
+
+nav .menu li a{
     color: #DCDFE5;
     font-size: 14px;
-    line-height: 64px;
-    font-weight: 400;
-}
-
-ul{
-    margin-left: 40px;
-    margin-top: 20px;
-}
-
-ul li{
-    display: inline;
-    left: 90%;
-    font-size: 14px;
-    padding: 5px;
-    margin-left: 13px;
-}
-
-.menu a{
-    text-decoration: none;
-    color: #DCDFE5;
+    padding: 7px 7px;
+    border-radius: 3px;
     font-weight: bold;
 }
 
-.menu a:hover{
-    color: white;
+nav .menu li a:hover{
     transition: .5s;
-}
-
-.icons {
-    float: right;
-    right: 90%;
-    margin-top: -19px;
-    display: block;
-}
-
-i{
-    font-size: 20px;
-    color: #DCDFE5;
-}
-
-i:hover{
     color: white;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.icons ul{
+    margin-top: -50px;
+
+}
+
+.icons ul li{
+    display: inline;
+    float: right;
+    padding: 5px;
+}
+
+.icons ul li i{
+    color: #DCDFE5;
+    font-size: 20px;
     cursor: pointer;
 }
 
-#logo{
-    display: block;
-    text-align: center;
-    font-family: 'DM Serif Display';
-    margin-top: -55px;
+icons ul li i:hover{
+    transition: 0.1s;
+    color: white;
 }
 
-#logo a {
-    font-family: 'DM Serif Display';
-    text-decoration: none;
-    font-size: 30px;
+@media(max-width:952px){
+    .logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    .icons{
+        display: none;
+    }
+
+    nav .menu li a{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+
+    .icons{
+        display: none;
+    }
+
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #1B1F29;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav .menu li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav .menu li a{
+        font-size: 20px;
+    }
+
+    #check:checked ~ .menu{
+        left: 0;
+        transition: 1.5s;
+    }
 }
