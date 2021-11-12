@@ -1,0 +1,154 @@
+#initial{
+    background-image: url("../imagens/public-speaker-template-hero-img-bg.jpg");
+    margin-top: 50px;
+    background-color: black;
+    text-align: center;
+    padding: 330px;
+    background-position: center;
+    filter: brightness(70%);
+}
+
+#initial h1{
+    color: white;
+    font-weight: normal;
+    font-size: 4em;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+.btn-acess{
+    padding: 17px 40px;
+    text-transform: uppercase;
+    border: none;
+    background-color: white;
+    color: black;
+    margin-top: 90px;
+}
+
+.btn-acess:hover{
+    cursor: pointer;
+    background-color: #2925F4;
+    transition: 0.5s;
+    color: white;
+}
+
+#about{
+    padding: 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+#about img{
+    box-shadow: -49px 40px 0px 20px #f6f6fe;
+}
+
+#about-content{
+    padding-left: 50px;
+}
+
+#about-content h2{
+    font-weight: normal;
+    font-size: 3em;
+}
+
+#about-content p{
+    margin-top: 30px;
+}
+
+#about-content strong{
+    color: #515C70;
+}
+
+#about-content .btn-acess{
+    position: absolute;
+    margin-top: 50px;
+    background-color: #1B1F29;
+    color: white;
+    padding: 10px 40px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#about-content .btn-acess:hover{
+    transition: 0.5s;
+    background-color: #2925F4;
+}
+
+#logos-img{
+    text-align: center;
+    font-size: 0.7em;
+}
+
+#logos{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 250px 40px 250px;
+}
+
+#presentation > img{
+    width: 900px;
+    margin-left: 135px;
+}
+
+#player{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 570px;
+    text-align: center;
+    font-size: 45px;
+}
+
+#player:hover{
+    transition: 0.5s;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transform: rotate(1turn);
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    padding: 130px;
+}
+
+#info h2{
+    font-size: 2em;
+}
+
+#info-content{
+    width: 400px;
+    margin-left: 300px;
+    font-size: 1.2em;
+    color: #515C70;
+}
+
+#info-content .btn-acess{
+    position: absolute;
+    margin-top: 50px;
+    background-color: #1B1F29;
+    color: white;
+    padding: 10px 40px;
+    font-size: 0.8em;
+    font-weight: normal;
+    margin-left: -340px;
+}
+
+#info-content .btn-acess:hover{
+    transition: 0.5s;
+    background-color: #2925F4;
+}
+
+#books{
+    text-align: center;
+}
+
+#books-content{
+    padding: 130px;
+    display: flex;
+    flex-direction: row;
+}

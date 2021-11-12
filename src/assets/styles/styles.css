@@ -105,6 +105,11 @@ icons ul li i:hover{
 }
 
 @media(max-width: 858px){
+    .logo{
+        position: absolute;
+        margin-top: -10px;
+        margin-left: -60px;
+    }
     .checkbtn{
         display: block;
     }
