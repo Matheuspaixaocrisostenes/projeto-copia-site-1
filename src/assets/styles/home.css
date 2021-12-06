@@ -191,3 +191,46 @@
     transition: 0.5s;
     background-color: #2925F4;
 }
+
+#phrase{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+#phrase h3{
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+#blog-tim{
+    display: flex;
+    flex-direction: row;
+}
+
+#blog-tim h2{
+    padding: 50px;
+    font-size: 2em;
+}
+
+#blog-tim .btn-acess{
+    background-color: #1B1F29;
+    color: white;
+    padding: 10px 40px;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-left: 650px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+#blog-tim .btn-acess:hover{
+    transition: 0.5s;
+    background-color: #2925F4;
+}
+
+#posts{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
