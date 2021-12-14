@@ -1,0 +1,199 @@
+#initial{
+    margin-top: 50px;
+    background-color: #1B1F29;
+    text-align: center;
+    padding: 171px 59px 100px 59px;
+    height: 50px;
+    color: white;
+}
+
+#initial h1{
+    font-weight: normal;
+    font-size: 4.5em;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+#initial p{
+    margin-top: -50px;
+}
+
+#book{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#book h3{
+    color: gray;
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+#book h2{
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+#book p{
+    margin-bottom: 20px;
+    color: rgb(141, 140, 140);
+}
+
+#book ul{
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+#book li{
+    margin-bottom: 10px;
+}
+
+#book ul li::before {
+    content: " ";
+    padding: 1px 5px 0px 7px;
+    background-color: blue;
+    border-radius: 100%;
+}
+
+#book strong{
+    color: gray;
+}
+
+#book img{
+    height: 578px;
+    width: 440px;
+    margin-right: 100px;
+}
+
+#book .btn-acess{
+    background-color: #1B1F29;
+    color: white;
+    padding: 10px 40px;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-top: 150px;
+}
+
+#book .btn-acess:hover{
+    transition: 0.5s;
+    background-color: #2925F4;
+}
+
+#books{
+    background-color: #F8F9FC;
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+#books img{
+    padding: 10px;
+}
+
+#books a{
+    font-size: 0.8em;
+}
+
+#books h2{
+    margin-top: 100px;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+#books-content{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#phrase{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+#phrase h3{
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    padding: 150px 50px 150px 50px;
+    background-color: #F9FAFA;
+}
+
+#contact h2{
+    font-size: 2em;
+}
+
+#contact p{
+    font-size: 0.9em;
+    margin-top: 10px;
+    margin-right: 100px;
+    width: 500px;
+    line-height: 30px;
+}
+
+#contact input, textarea{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F9FAFA;
+    border: 1px solid #cacccc;
+}
+
+#contact input{
+    width: 490px;
+}
+
+
+#contact .btn-acess{
+    background-color: #1B1F29;
+    color: white;
+    padding: 10px 40px;
+    font-weight: normal;
+    margin-top: 30px;
+    position: absolute;
+}
+
+#contact .btn-acess:hover{
+    transition: 0.5s;
+    background-color: #2925F4;
+}
+
+#footer-icons{
+    margin-top: 50px;
+    padding: 100px;
+}
+
+#footer-icons h2{
+    font-size: 2em;
+    font-weight: normal;
+}
+
+#footer-icons i{
+    color: black;
+}
+
+footer{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: gray;
+}
+
+footer a{
+    color: gray;
+}
+
+footer a:hover{
+    color: #2925F4;
+    transition: 0.5s;
+}

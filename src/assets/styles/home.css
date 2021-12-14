@@ -193,6 +193,22 @@
     background-color: #2925F4;
 }
 
+#phrase{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#phrase h2{
+    font-size: 2.3em;
+}
+
+#phrase h3{
+    font-size: 0.9em;
+    margin-top: 50px;
+    color: gray;
+}
+
 #blog{
     margin-top: 150px;
     margin-bottom: 150px;
