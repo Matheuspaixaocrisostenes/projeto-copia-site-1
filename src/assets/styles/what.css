@@ -84,11 +84,62 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
-    padding: 30px;
+    padding: 20px;
+    margin: 0px 30px 0px 30px;
 }
 
 #list div p{
     padding: 10px;
+}
+
+.border{
+    border-top: 1px solid gray;
+}
+
+
+#blog{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: #F9FAFA;
+}
+
+#blog-tim h2{
+    padding: 50px;
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+    color: #1B1F29;
+}
+
+
+#posts{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 30px 150px 30px;
+}
+
+#posts > div{
+    margin-left: 15px;
+}
+
+#posts p{
+    font-size: 1em;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+#posts h3{
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.read{
+    font-size: 0.8em;
+    color: #2925F4;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #phrase2{
