@@ -1,0 +1,141 @@
+nav{
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.164);
+}
+
+nav .menu li a{
+    color: black;
+}
+
+nav .menu li a:hover{
+    color: blue;
+}
+
+.icons ul li i{
+    color: blue;
+}
+
+.icons ul li i:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.logo a{
+    color: black;
+}
+
+main{
+    background-color: #F9FAFA;
+    margin-top: 50px;
+    padding: 100px 200px 50px 200px;
+}
+
+.blog-content{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.164);
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.blog-content h2{
+    font-size: 2em;
+    color: gray;
+    font-weight: normal;
+}
+
+.date{
+    margin: 10px 0px 20px 0px;
+}
+
+.blog-content img{
+    width: 900px;
+    height: 675px;
+}
+
+.blog-content img:hover{
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.cap{
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    padding: 150px 50px 150px 50px;
+    background-color: #F9FAFA;
+}
+
+#contact h2{
+    font-size: 3em;
+}
+
+#contact p{
+    font-size: 0.9em;
+    margin-top: 10px;
+    margin-right: 100px;
+    width: 500px;
+    line-height: 30px;
+}
+
+#contact input, textarea{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F9FAFA;
+    border: 1px solid #cacccc;
+}
+
+#contact input{
+    width: 490px;
+}
+
+
+#contact .btn-acess{
+    background-color: #1B1F29;
+    color: white;
+    padding: 10px 40px;
+    font-weight: normal;
+    margin-top: 30px;
+    position: absolute;
+}
+
+#contact .btn-acess:hover{
+    transition: 0.5s;
+    background-color: #2925F4;
+}
+
+#footer-icons{
+    margin-top: 50px;
+    padding: 100px;
+}
+
+#footer-icons h2{
+    font-size: 2em;
+    font-weight: normal;
+}
+
+#footer-icons i{
+    color: black;
+}
+
+footer{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: gray;
+}
+
+footer a{
+    color: gray;
+}
+
+footer a:hover{
+    color: #2925F4;
+    transition: 0.5s;
+}

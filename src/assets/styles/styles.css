@@ -84,7 +84,7 @@ nav .menu li a:hover{
     cursor: pointer;
 }
 
-icons ul li i:hover{
+.icons ul li i:hover{
     transition: 0.1s;
     color: white;
 }
