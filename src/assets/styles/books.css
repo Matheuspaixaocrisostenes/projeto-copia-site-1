@@ -197,3 +197,43 @@ footer a:hover{
     color: #2925F4;
     transition: 0.5s;
 }
+
+@media(max-width: 858px){
+    #initial{
+        margin-top: -10px;
+    }
+
+    #book{
+        flex-direction: column;
+    }
+
+    #book img{
+        margin-left: -80px;
+        margin-bottom: 100px;
+    }
+
+    #books-content{
+        flex-direction: column;
+        margin-left: -100px;
+    }
+
+    #books-content img{
+        margin-top: 100px;
+    }
+
+    #contact{
+        flex-direction: column;
+    }
+
+    #contact p{
+        margin-left: -41px;
+    }
+
+    #contact input,textarea{
+        width: 400px;
+    }
+
+    #footer-icons i{
+        display: none;
+    }
+}
