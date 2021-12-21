@@ -268,3 +268,100 @@ footer a:hover{
     color: #2925F4;
     transition: 0.5s;
 }
+
+@media(max-width: 858px){
+    #initial{
+        margin-top: -10px;
+    }
+
+    #logos{
+        flex-direction: column;
+    }
+
+    #logos h2{
+        margin-top: 100px;
+    }
+
+    #logos img{
+        width: 158px;
+        margin-left: -100px;
+    }
+
+    #about{
+        flex-direction: column;
+        padding: 100px;
+    }
+
+    #about img{
+        box-shadow: none;
+        width: 450px;
+        height: 450px;
+        margin-left: -80px;
+        margin-bottom: 100px;
+    }
+
+    #about-content{
+        padding: 0px;
+    }
+
+    #books-content{
+        flex-direction: column;
+        margin-left: -100px;
+    }
+
+    #books-content img{
+        margin-top: 100px;
+    }
+
+    #blog-tim .btn-acess{
+        margin-left: -188px;
+        margin-top: 106px;
+    }
+
+    #presentation img{
+        width: 400px;
+        height: 371px;
+        margin-left: 38px;
+    }
+
+    #player{
+        margin-left: 209px;
+    }
+
+    #info{
+        flex-direction: column;
+    }
+
+    #info-content{
+        margin-left: -61px;
+        margin-top: 30px;
+    }
+
+    #info-content .btn-acess{
+        margin-left: -189px;
+    }
+
+    #phrase2{
+        flex-direction: column;
+    }
+
+    #phrase2 h2{
+        margin-bottom: 100px;
+    }
+
+    #contact{
+        flex-direction: column;
+    }
+
+    #contact p{
+        margin-left: -41px;
+    }
+
+    #contact input,textarea{
+        width: 400px;
+    }
+
+    #footer-icons i{
+        display: none;
+    }
+}
