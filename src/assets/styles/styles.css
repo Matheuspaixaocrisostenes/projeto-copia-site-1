@@ -127,6 +127,7 @@ nav .menu li a:hover{
         left: -100%;
         text-align: center;
         transition: all .5s;
+        z-index: 1;
     }
 
     nav .menu li {
