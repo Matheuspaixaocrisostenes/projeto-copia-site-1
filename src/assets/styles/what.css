@@ -237,3 +237,66 @@ footer a:hover{
     color: #2925F4;
     transition: 0.5s;
 }
+
+@media(max-width: 858px){
+    #initial{
+        margin-top: -10px;
+    }
+
+    #presentation img{
+        width: 70%;
+        margin-left: 60px;
+        margin-top: -80px;
+    }
+
+    #player{
+        margin-left: 184px;
+        margin-top: -32px;
+    }
+
+    #info{
+        flex-direction: column;
+    }
+
+    #info-content p{
+        margin-left: -417px;
+        margin-top: 30px;
+        width: 450px;
+    }
+
+    #info-content .btn-acess{
+        margin-left: -293px;
+    }
+
+    #list div{
+        flex-direction: column;
+    }
+
+    #posts{
+        flex-direction: column;
+    }
+
+    #posts img{
+        margin-top: 50px;
+    }
+
+    #phrase2{
+        flex-direction: column;
+    }
+
+    #contact{
+        flex-direction: column;
+    }
+
+    #contact p{
+        margin-left: -41px;
+    }
+
+    #contact input,textarea{
+        width: 400px;
+    }
+
+    #footer-icons i{
+        display: none;
+    }
+}
