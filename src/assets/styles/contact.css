@@ -104,3 +104,36 @@ footer a:hover{
     color: #2925F4;
     transition: 0.5s;
 }
+
+@media(max-width: 858px){
+    #initial{
+        margin-top: -10px;
+        flex-direction: column;
+    }
+
+    #cont{
+        margin: 0px;
+        padding: 42px 0px 0px 15px;
+    }
+
+    iframe{
+        width: 400px;
+        height: 400px;
+    }
+
+    #contact{
+        flex-direction: column;
+    }
+
+    #contact p{
+        margin-left: -41px;
+    }
+
+    #contact input,textarea{
+        width: 400px;
+    }
+
+    #footer-icons i{
+        display: none;
+    }
+}
