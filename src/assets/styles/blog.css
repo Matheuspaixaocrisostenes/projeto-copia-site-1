@@ -141,5 +141,49 @@ footer a:hover{
 }
 
 @media(max-width: 858px){
-    
+    nav i{
+        color: blue;
+    }
+
+    nav .menu li a{
+        color: white;
+    }
+
+    main{
+        margin-top: 0px;
+    }
+
+    #blog{
+        margin-top: -10px;
+        margin-left: -154px;
+    }
+
+    .blog-content{
+        padding: 0px;
+    }
+
+    .blog-content h2{
+        font-size: 1.5em;
+    }
+
+    .blog-content img{
+        width: 300px;
+        height: 300px;
+    }
+
+    #contact{
+        flex-direction: column;
+    }
+
+    #contact p{
+        margin-left: -41px;
+    }
+
+    #contact input,textarea{
+        width: 400px;
+    }
+
+    #footer-icons i{
+        display: none;
+    }
 }
