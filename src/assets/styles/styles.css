@@ -18,7 +18,7 @@ h1,h2,h3{
     color: #ffff;
     font-size: 30px;
     line-height: 80px;
-    padding: 0px 100px;
+    text-align: center;
     font-family: 'DM Serif Display';
 }
 
@@ -108,8 +108,12 @@ nav .menu li a:hover{
     .logo{
         position: absolute;
         margin-top: -10px;
-        margin-left: -60px;
     }
+
+    nav .logo a{
+        padding: -1px 0px;
+    } 
+
     .checkbtn{
         display: block;
     }
