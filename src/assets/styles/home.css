@@ -74,6 +74,11 @@ h1{
     width: 180px;
 }
 
+.btn:hover{
+    background-color: #2925F4;
+    transition: .5s;
+}
+
 .logos{
     display: flex;
     flex-direction: column;
@@ -179,6 +184,24 @@ h1{
     padding: 0px 40px;
 }
 
+#contact{
+    margin-top: 100px;
+    padding-top: 100px;
+    background-color: #F9FAFA;
+}
+
+#contact p{
+    line-height: 25px;
+    font-size: 0.9em;
+}
+
+#contact input{
+    display: block;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 @media(max-width: 650px){
     #initial{
         margin-top: -1px;
@@ -241,6 +264,18 @@ h1{
 
     #blog a{
         margin-bottom: 20px;
+    }
+
+    #contact p{
+        margin-bottom: 20px;
+    }
+
+    #contact .align-left{
+        flex-direction: column;
+    }
+
+    #contact .align-left input, textarea{
+        width: 100%;
     }
 }
 
