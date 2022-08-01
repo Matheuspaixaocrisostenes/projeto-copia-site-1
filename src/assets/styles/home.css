@@ -138,6 +138,26 @@ h1{
     font-size: 0.8em;
 }
 
+#books > .btn{
+    display: block;
+    margin: 50px auto;
+}
+
+#phrase{
+    text-align: center;
+    padding: 10%;
+}
+
+#phrase h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#phrase span{
+    color: gray;
+    font-weight: bold;
+}
+
 @media(max-width: 650px){
     #initial{
         margin-top: -1px;
@@ -181,6 +201,17 @@ h1{
 
     .col-align a{
         text-align: center;
+    }
+
+    #books img{
+        width: 70%;
+        padding: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #phrase h2{
+        font-size: 1.5em;
     }
 }
 
