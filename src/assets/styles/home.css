@@ -42,6 +42,7 @@ h1{
 
 #about{
     padding: 30px 200px;
+    
 }
 
 #about h2{
@@ -73,6 +74,70 @@ h1{
     width: 180px;
 }
 
+.logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-presentation{
+    background-image: url('../imagens/public-speaker-template-video-img-bg.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 150px;
+}
+
+.col-align{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 200px;
+}
+
+.col-align p{
+    color: #515C70;
+}
+
+.col-align div:nth-child(1){
+    margin-right: 145px;
+}
+
+#books{
+    margin-top: 100px;
+    background-color: #F8F9FC;
+}
+
+#books h2{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#books p{
+    text-align: center;
+}
+
+#books > .col{
+    justify-content: center;
+}
+
+.card{
+    padding: 0px 15px;
+}
+
+.card h3{
+    text-align: center;
+}
+
+.card a{
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    font-size: 0.8em;
+}
+
 @media(max-width: 650px){
     #initial{
         margin-top: -1px;
@@ -102,6 +167,20 @@ h1{
         margin: 0 auto;
         margin-top: 150px;
         width: 200px;
+    }
+
+    .col-align{
+        flex-direction: column;
+        padding: 15px;
+        text-align: justify;
+    }
+
+    .col-align h2{
+        margin-bottom: 20px;
+    }
+
+    .col-align a{
+        text-align: center;
     }
 }
 
