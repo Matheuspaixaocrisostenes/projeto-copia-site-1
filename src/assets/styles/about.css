@@ -53,6 +53,10 @@ h1{
     font-size: 1em;
 }
 
+#books{
+    background-color: #F8F9FC;
+}
+
 #books h2{
     font-size: 2em;
     text-align: center;
@@ -122,6 +126,14 @@ h1{
 @media(max-width: 650px){
     #initial {
         margin-top: -1px;
+    }
+
+    #initial h1{
+        font-size: 2.5em;
+    }
+
+    #initial p{
+        font-size: 1em;
     }
 
     #about{
