@@ -64,21 +64,6 @@ h1{
     padding-left: 30px;
 }
 
-.btn{
-    text-transform: uppercase;
-    background-color: black;
-    color: white;
-    padding: 5px 20px;
-    display: block;
-    margin-top: 20px;
-    width: 180px;
-}
-
-.btn:hover{
-    background-color: #2925F4;
-    transition: .5s;
-}
-
 .logos{
     display: flex;
     flex-direction: column;
@@ -163,17 +148,6 @@ h1{
     font-weight: bold;
 }
 
-.align-left{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 15px;
-}
-
-.align-left h2{
-    font-size: 2em;
-}
-
 .card span{
     font-family: Arial, Helvetica, sans-serif !important;
     color: gray;
@@ -182,43 +156,6 @@ h1{
 
 #blog .card {
     padding: 0px 40px;
-}
-
-#contact{
-    margin-top: 100px;
-    padding-top: 100px;
-    background-color: #F9FAFA;
-}
-
-#contact p{
-    line-height: 25px;
-    font-size: 0.9em;
-}
-
-#contact input{
-    display: block;
-    width: 400px;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-#footer-icons {
-    padding: 100px 25px;
-}
-
-#footer-icons i{
-    color: #2925F4;
-}
-
-footer p{
-    text-align: center;
-    margin-bottom: 10px;
-    color: gray;
-}
-
-footer a{
-    color: #353536;
-    font-weight: bold;
 }
 
 @media(max-width: 650px){
@@ -235,10 +172,6 @@ footer a{
     #initial a{
         padding: 5px;
         font-size: 0.9em;
-    }
-
-    .col{
-        flex-direction: column;
     }
 
     #about{
@@ -283,18 +216,6 @@ footer a{
 
     #blog a{
         margin-bottom: 20px;
-    }
-
-    #contact p{
-        margin-bottom: 20px;
-    }
-
-    #contact .align-left{
-        flex-direction: column;
-    }
-
-    #contact .align-left input, textarea{
-        width: 100%;
     }
 }
 

@@ -1,0 +1,150 @@
+#initial{
+    margin-top: 40px;
+    background-color: #1B1F29;
+    color: white;
+    text-align: center;
+    padding: 70px 0px;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+#about{
+    padding: 30px 200px;
+    
+}
+
+#about h2{
+    font-size: 3em;
+}
+
+#about strong{
+    color: #515C70;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#about img{
+    width: 400px;
+}
+
+#about div:nth-child(2){
+    padding-left: 30px;
+}
+
+#phrase{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#phrase h3{
+    font-size: 1em;
+}
+
+#books h2{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#books p{
+    text-align: center;
+}
+
+#books > .col{
+    justify-content: center;
+}
+
+.card{
+    padding: 0px 15px;
+}
+
+.card h3{
+    text-align: center;
+}
+
+.card a{
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    font-size: 0.8em;
+}
+
+#books > .btn{
+    display: block;
+    margin: 50px auto;
+}
+
+.img-presentation{
+    background-image: url('../imagens/public-speaker-template-video-img-bg.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+#info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+
+#info div:nth-child(2){
+    padding-left: 100px;
+}
+
+#phreses{
+    padding: 15px;
+}
+
+#phreses p{
+    font-size: 1.2em;
+}
+
+#phreses h2{
+    font-size: .9em;
+    color: gray;
+}
+
+@media(max-width: 650px){
+    #initial {
+        margin-top: -1px;
+    }
+
+    #about{
+        padding: 15px; 
+    }
+
+    #about img{
+        width: 100%;
+    }
+
+    #info{
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    #info div:nth-child(2){
+        padding: 0px;
+    }
+
+    #books img{
+        width: 70%;
+        padding: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+}

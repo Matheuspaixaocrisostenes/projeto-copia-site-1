@@ -89,6 +89,79 @@ nav .menu li a:hover{
     color: white;
 }
 
+.col{
+    display: flex;
+    margin-top: 50px;
+}
+
+.btn{
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    display: block;
+    margin-top: 20px;
+    width: 180px;
+}
+
+.btn:hover{
+    background-color: #2925F4;
+    transition: .5s;
+}
+
+.align-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.align-left h2{
+    font-size: 2em;
+}
+
+#contact{
+    margin-top: 100px;
+    padding-top: 100px;
+    background-color: #F9FAFA;
+}
+
+#contact p{
+    line-height: 25px;
+    font-size: 0.9em;
+}
+
+#contact input{
+    display: block;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(180, 178, 178);
+}
+
+#contact textarea{
+    border: 1px solid rgb(180, 178, 178);
+}
+
+#footer-icons {
+    padding: 100px 25px;
+}
+
+#footer-icons i{
+    color: #2925F4;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+footer a{
+    color: #353536;
+    font-weight: bold;
+}
+
 @media(max-width:952px){
     .logo{
         font-size: 30px;
@@ -147,5 +220,23 @@ nav .menu li a:hover{
     #check:checked ~ .menu{
         left: 0;
         transition: 1.5s;
+    }
+}
+
+@media(max-width: 650px){
+    .col{
+        flex-direction: column;
+    }
+
+    #contact p{
+        margin-bottom: 20px;
+    }
+
+    #contact .align-left{
+        flex-direction: column;
+    }
+
+    #contact .align-left input, textarea{
+        width: 100%;
     }
 }
