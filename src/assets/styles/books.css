@@ -105,10 +105,48 @@
 }
 
 @media(max-width: 650px){
+    #initial{
+        margin-top: -1px;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+
+    #initial h1{
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+
+    #initial p{
+        margin-bottom: 10px;
+    }
+
+    #book{
+        padding: 30px;
+    }
+
+    #book img{
+        width: 85vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #book h2{
+        font-size: 2em;
+    }
+
     #books img{
         width: 70%;
         padding: 10px;
         display: block;
         margin: 0 auto;
+    }
+
+    #books a{
+        margin-bottom: 50px;
+    }
+
+    #phrase{
+        padding: 0px;
+        font-size: 1em;
     }
 }
