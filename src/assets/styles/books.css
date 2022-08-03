@@ -1,0 +1,114 @@
+#initial{
+    margin-top: 50px;
+    background-color: #1B1F29;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+#initial h1{
+    font-size: 4em;
+}
+
+#book{
+    padding: 100px;
+}
+
+#book h3{
+    font-size: .9em;
+    color: gray;
+    line-height: 80px;
+}
+
+#book h2{
+    font-size: 3.5em;
+    font-weight: normal;
+}
+
+#book p strong{
+    color: gray;
+}
+
+#book p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#book img{
+    padding-right: 100px;
+    width: 40vw;
+}
+
+#book li{
+    line-height: 2em;
+    color: gray;
+    font-weight: bolder;
+}
+
+#book li::before {
+    content: "•"; 
+    color: blue;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
+
+#books{
+    background-color: #F8F9FC;
+}
+
+#books h2{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#books p{
+    text-align: center;
+}
+
+#books > .col{
+    justify-content: center;
+}
+
+
+.card{
+    padding: 0px 15px;
+}
+
+.card h3{
+    text-align: center;
+}
+
+.card a{
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    font-size: 0.8em;
+}
+
+#books > .btn{
+    display: block;
+    margin: 50px auto;
+}
+
+#phrase{
+    text-align: center;
+    padding: 200px;
+    font-size: 1.5em;
+    padding-bottom: 0px;
+}
+
+#phrase h3{
+    font-size: .8em;
+    margin-top: 10px;
+}
+
+@media(max-width: 650px){
+    #books img{
+        width: 70%;
+        padding: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+}
