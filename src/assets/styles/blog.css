@@ -6,6 +6,10 @@ nav .menu li a{
     color: black;
 }
 
+nav .menu li a:hover{
+    color: gray;
+}
+
 .logo a{
     color: black;
 }
@@ -28,6 +32,10 @@ nav .menu li a{
 
 .card{
     border-bottom: 1px solid rgb(227, 225, 225);
+}
+
+.card:hover{
+    cursor: pointer;
 }
 
 .card img{
