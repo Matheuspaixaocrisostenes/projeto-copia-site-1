@@ -45,3 +45,26 @@ nav .menu li a{
     margin-top: 0px;
     padding-top: 0px;
 }
+
+@media(max-width: 650px){
+    nav .menu li a{
+        color: white;
+    }
+
+    nav i{
+        color: #2925F4;
+    }
+
+    #blog{
+        padding: 5px;
+    }
+
+    #blog h2{
+        font-size: 1.5em;
+        line-height: 40px;
+    }
+
+    .card{
+        margin-top: 40px;
+    }
+}
