@@ -1,0 +1,47 @@
+nav{
+    background: white;
+}
+
+nav .menu li a{
+    color: black;
+}
+
+.logo a{
+    color: black;
+}
+
+.icons ul li i{
+    color: #2925F4;
+}
+
+#blog{
+    background-color: #F9FAFA;
+    padding: 100px 200px;
+    text-align: justify;
+}
+
+#blog h2{
+    font-size: 2em;
+    color: gray;
+    line-height: 80px;
+}
+
+.card{
+    border-bottom: 1px solid rgb(227, 225, 225);
+}
+
+.card img{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+#contact{
+    margin-top: 0px;
+    padding-top: 0px;
+}
