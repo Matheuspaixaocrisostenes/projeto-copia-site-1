@@ -111,3 +111,62 @@
     font-size: 1.5em;
     text-align: justify;
 }
+
+@media(max-width: 650px){
+    #initial{
+        margin-top: -1px;
+    }
+
+    #initial h1{
+        font-size: 3em;
+    }
+
+    #initial p{
+        font-size: .9em;
+    }
+
+    #initial img{
+        margin-top: 160px;
+    }
+
+    #live{
+        margin-top: 200px;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .border{
+        flex-direction: column;
+    }
+
+    .border h2{
+        margin-bottom: 10px;
+    }
+
+    .border p{
+        margin-bottom: 10px;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    #sessions{
+        margin-top: -10px;
+        margin-bottom: 0px;
+    }
+
+    #sessions h2{
+        font-size: 2.5em;
+    }
+
+    .card img{
+        width: 100%;
+    }
+
+    #phrases{
+        flex-direction: column;
+        padding: 0px;
+        margin-top: 10px;
+    }
+}
