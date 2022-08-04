@@ -46,10 +46,68 @@
 .border{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    text-align: justify;
+    justify-content: space-between;
+    text-align: inherit;
     border-top: 1px solid gray;
     margin-top: 10px;
 
+    padding: 30px;
+}
+
+#sessions{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: #F9FAFA;
+}
+
+#sessions h2{
+    font-size: 3em;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.content{
+    margin-top: 50px;
+    display: flex;
+}
+
+.card{
     padding: 20px;
+}
+
+.card img{
+    width: 30vw;
+    height: 40vh;
+}
+
+.card h3{
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+#phrases{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+#phrases div{
+    padding: 50px;
+}
+
+#phrases h2{
+    font-size: 1em;
+    color: gray;
+    margin-top: 10px;
+}
+
+#phrases p{
+    font-size: 1.5em;
+    text-align: justify;
 }
